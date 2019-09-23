@@ -1,15 +1,13 @@
-package com.example.demo;
+package com.walmart.ccpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class CcpaApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Helloworld");
-		SpringApplication.run(DemoApplication.class, args);
-		
+		SpringApplication.run(CcpaApplication.class, args);
 	}
 
 }
